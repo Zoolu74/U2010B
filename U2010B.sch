@@ -1,0 +1,460 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L USER:U2010B U1
+U 1 1 5EA2D021
+P 5700 3600
+F 0 "U1" H 6200 3775 50  0000 C CNN
+F 1 "U2010B" H 6200 3684 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm" H 5900 3650 50  0001 C CNN
+F 3 "" H 5900 3650 50  0001 C CNN
+	1    5700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5EA2DE5D
+P 3450 3300
+F 0 "R4" V 3350 3200 50  0000 C CNN
+F 1 "3.3k" V 3350 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3380 3300 50  0001 C CNN
+F 3 "~" H 3450 3300 50  0001 C CNN
+	1    3450 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5EA2E8C3
+P 3450 3750
+F 0 "R5" V 3350 3650 50  0000 C CNN
+F 1 "3.3k" V 3350 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3380 3750 50  0001 C CNN
+F 3 "~" H 3450 3750 50  0001 C CNN
+	1    3450 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 4800 3600 5650
+Wire Wire Line
+	3600 5650 4350 5650
+Wire Wire Line
+	3300 5650 3600 5650
+Connection ~ 3600 5650
+Wire Wire Line
+	3900 3950 3900 4050
+$Comp
+L Device:R R2
+U 1 1 5EA37CF0
+P 7100 3350
+F 0 "R2" H 7170 3396 50  0000 L CNN
+F 1 "330k" H 7170 3305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7030 3350 50  0001 C CNN
+F 3 "~" H 7100 3350 50  0001 C CNN
+	1    7100 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3750 7100 3500
+Wire Wire Line
+	3600 3300 3700 3300
+$Comp
+L Device:R R1
+U 1 1 5EA3A93D
+P 7350 1950
+F 0 "R1" V 7143 1950 50  0000 C CNN
+F 1 "18k/2W" V 7234 1950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 7280 1950 50  0001 C CNN
+F 3 "~" H 7350 1950 50  0001 C CNN
+	1    7350 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5EA3D10C
+P 7800 1950
+F 0 "D1" H 7800 2166 50  0000 C CNN
+F 1 "D" H 7800 2075 50  0000 C CNN
+F 2 "Diode_SMD:D_SMB" H 7800 1950 50  0001 C CNN
+F 3 "~" H 7800 1950 50  0001 C CNN
+	1    7800 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 1950 7500 1950
+Wire Wire Line
+	8100 4050 6800 4050
+Wire Wire Line
+	8100 1950 7950 1950
+$Comp
+L Device:LED D3
+U 1 1 5EA3FB89
+P 8450 1950
+F 0 "D3" H 8443 2166 50  0000 C CNN
+F 1 "LED" H 8443 2075 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 8450 1950 50  0001 C CNN
+F 3 "~" H 8450 1950 50  0001 C CNN
+	1    8450 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 1950 8100 1950
+Connection ~ 8100 1950
+Wire Wire Line
+	8600 1950 8800 1950
+Wire Wire Line
+	8800 4150 6800 4150
+$Comp
+L Device:RTRIM R8
+U 1 1 5EA41918
+P 7800 3350
+F 0 "R8" H 7928 3396 50  0000 L CNN
+F 1 "470k" H 7928 3305 50  0000 L CNN
+F 2 "Potentiometer_THT:Potentiometer_Vishay_T7-YA_Single_Vertical" V 7730 3350 50  0001 C CNN
+F 3 "~" H 7800 3350 50  0001 C CNN
+	1    7800 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3850 7800 3850
+Wire Wire Line
+	7800 3850 7800 3500
+Wire Wire Line
+	7800 3200 7800 2800
+Wire Wire Line
+	7800 2800 8800 2800
+$Comp
+L Device:C C3
+U 1 1 5EA300F4
+P 3600 4650
+F 0 "C3" H 3715 4696 50  0000 L CNN
+F 1 "10n" H 3715 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3638 4500 50  0001 C CNN
+F 3 "~" H 3600 4650 50  0001 C CNN
+	1    3600 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3300 3700 3650
+Wire Wire Line
+	7100 1950 7100 3200
+Wire Wire Line
+	8100 1950 8100 4050
+Wire Wire Line
+	8800 1950 8800 2800
+Connection ~ 8800 2800
+$Comp
+L Triac_Thyristor:BT136-600 Q1
+U 1 1 5EA58454
+P 3300 2500
+F 0 "Q1" H 3429 2546 50  0000 L CNN
+F 1 "BT136-600" H 3429 2455 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3500 2425 50  0001 L CIN
+F 3 "http://www.micropik.com/PDF/BT136-600.pdf" H 3300 2500 50  0001 L CNN
+	1    3300 2500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2650 3300 3300
+Wire Wire Line
+	3300 2350 3300 2050
+$Comp
+L Device:R R3
+U 1 1 5EA5A82E
+P 5100 2600
+F 0 "R3" V 5307 2600 50  0000 C CNN
+F 1 "180" V 5216 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5030 2600 50  0001 C CNN
+F 3 "~" H 5100 2600 50  0001 C CNN
+	1    5100 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3450 2600 4950 2600
+Wire Wire Line
+	6800 3650 6900 3650
+Wire Wire Line
+	6900 3650 6900 2600
+$Comp
+L Connector:Conn_01x01_Female J5
+U 1 1 5EA5D1F5
+P 3100 5650
+F 0 "J5" H 2992 5835 50  0000 C CNN
+F 1 "NULL" H 2992 5744 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 3100 5650 50  0001 C CNN
+F 3 "~" H 3100 5650 50  0001 C CNN
+	1    3100 5650
+	-1   0    0    -1  
+$EndComp
+Connection ~ 3300 5650
+$Comp
+L Device:RTRIM R10
+U 1 1 5EA62EB1
+P 4050 5150
+F 0 "R10" V 4150 5050 50  0000 C CNN
+F 1 "100k" V 4250 5100 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Vishay_T7-YA_Single_Vertical" V 3980 5150 50  0001 C CNN
+F 3 "~" H 4050 5150 50  0001 C CNN
+	1    4050 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5EA693D0
+P 4050 4700
+F 0 "C4" V 3798 4700 50  0000 C CNN
+F 1 "150n" V 3889 4700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4088 4550 50  0001 C CNN
+F 3 "~" H 4050 4700 50  0001 C CNN
+	1    4050 4700
+	0    1    1    0   
+$EndComp
+Connection ~ 3900 4700
+Wire Wire Line
+	3900 4700 3900 5150
+$Comp
+L Device:R R7
+U 1 1 5EA6B729
+P 4350 5450
+F 0 "R7" V 4250 5400 50  0000 L CNN
+F 1 "R" V 4450 5400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4280 5450 50  0001 C CNN
+F 3 "~" H 4350 5450 50  0001 C CNN
+	1    4350 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5EA6CAB5
+P 4350 4850
+F 0 "R14" V 4450 4850 50  0000 C CNN
+F 1 "R" V 4250 4850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4280 4850 50  0001 C CNN
+F 3 "~" H 4350 4850 50  0001 C CNN
+	1    4350 4850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4350 5600 4350 5650
+Connection ~ 4350 5650
+$Comp
+L Device:R_POT P1
+U 1 1 5EA7212F
+P 4350 5150
+F 0 "P1" H 4280 5104 50  0000 R CNN
+F 1 "50k" H 4280 5195 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Vishay_248GJ-249GJ_Single_Vertical" H 4350 5150 50  0001 C CNN
+F 3 "~" H 4350 5150 50  0001 C CNN
+	1    4350 5150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3900 4050 3900 4700
+Connection ~ 3900 4050
+Wire Wire Line
+	3600 3850 3600 4500
+Wire Wire Line
+	3300 3750 3300 5650
+Connection ~ 7100 1950
+Wire Wire Line
+	7100 1950 7200 1950
+Wire Wire Line
+	6800 3750 7100 3750
+Wire Wire Line
+	4200 4700 4350 4700
+$Comp
+L Device:C C5
+U 1 1 5EAA7B94
+P 4350 4450
+F 0 "C5" H 4235 4404 50  0000 R CNN
+F 1 "100n" H 4235 4495 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4388 4300 50  0001 C CNN
+F 3 "~" H 4350 4450 50  0001 C CNN
+	1    4350 4450
+	-1   0    0    1   
+$EndComp
+Connection ~ 4350 4700
+Wire Wire Line
+	4350 4150 4750 4150
+$Comp
+L Device:RTRIM R11
+U 1 1 5EAA966E
+P 4750 4450
+F 0 "R11" V 4650 4300 50  0000 C CNN
+F 1 "1M" V 4650 4550 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Vishay_T7-YA_Single_Vertical" V 4680 4450 50  0001 C CNN
+F 3 "~" H 4750 4450 50  0001 C CNN
+	1    4750 4450
+	-1   0    0    1   
+$EndComp
+Connection ~ 4750 4150
+Wire Wire Line
+	4750 4700 4350 4700
+$Comp
+L Device:CP C2
+U 1 1 5EAAC085
+P 5100 4450
+F 0 "C2" H 5218 4496 50  0000 L CNN
+F 1 "4.7u" H 5218 4405 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5138 4300 50  0001 C CNN
+F 3 "~" H 5100 4450 50  0001 C CNN
+	1    5100 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 1950 7100 1950
+Wire Wire Line
+	5250 2600 6900 2600
+Wire Wire Line
+	3700 3650 5600 3650
+Wire Wire Line
+	3600 3750 5600 3750
+Wire Wire Line
+	3600 3850 5600 3850
+Wire Wire Line
+	3900 3950 5600 3950
+Wire Wire Line
+	3900 4050 5600 4050
+Wire Wire Line
+	4750 4300 4750 4150
+Wire Wire Line
+	4350 4300 4350 4150
+Wire Wire Line
+	4350 4600 4350 4700
+Wire Wire Line
+	4750 4600 4750 4700
+Wire Wire Line
+	4750 4700 5100 4700
+Wire Wire Line
+	5100 4700 5100 4600
+Connection ~ 4750 4700
+Wire Wire Line
+	4750 4150 5600 4150
+Wire Wire Line
+	5600 4250 5100 4250
+Wire Wire Line
+	5100 4250 5100 4300
+Wire Wire Line
+	5600 4350 5600 4700
+Wire Wire Line
+	5600 4700 5100 4700
+Connection ~ 5100 4700
+$Comp
+L Device:CP C7
+U 1 1 5EAC94A5
+P 5600 5150
+F 0 "C7" H 5482 5104 50  0000 R CNN
+F 1 "1u" H 5482 5195 50  0000 R CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5638 5000 50  0001 C CNN
+F 3 "~" H 5600 5150 50  0001 C CNN
+	1    5600 5150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 4700 5600 5000
+Connection ~ 5600 4700
+Wire Wire Line
+	8800 2800 8800 4150
+Wire Wire Line
+	5600 5300 5600 5650
+Wire Wire Line
+	4350 5650 5600 5650
+Connection ~ 5600 5650
+$Comp
+L Device:CP C1
+U 1 1 5EAD0382
+P 8800 4900
+F 0 "C1" H 8682 4854 50  0000 R CNN
+F 1 "22u" H 8682 4945 50  0000 R CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 8838 4750 50  0001 C CNN
+F 3 "~" H 8800 4900 50  0001 C CNN
+	1    8800 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8800 4750 8800 4150
+Connection ~ 8800 4150
+Wire Wire Line
+	8800 5650 8800 5050
+Wire Wire Line
+	5600 5650 7700 5650
+Wire Wire Line
+	7700 4250 7700 5650
+Connection ~ 7700 5650
+Wire Wire Line
+	7700 5650 8800 5650
+Wire Wire Line
+	6800 4250 7700 4250
+$Comp
+L Connector:Conn_01x01_Female J3
+U 1 1 5EADC311
+P 3100 3300
+F 0 "J3" H 2992 3075 50  0000 C CNN
+F 1 "Rsh" H 2992 3166 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 3100 3300 50  0001 C CNN
+F 3 "~" H 3100 3300 50  0001 C CNN
+	1    3100 3300
+	-1   0    0    1   
+$EndComp
+Connection ~ 3300 3300
+$Comp
+L Connector:Conn_01x01_Female J4
+U 1 1 5EADCBC7
+P 3100 3750
+F 0 "J4" H 2992 3525 50  0000 C CNN
+F 1 "Rsh" H 2992 3616 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 3100 3750 50  0001 C CNN
+F 3 "~" H 3100 3750 50  0001 C CNN
+	1    3100 3750
+	-1   0    0    1   
+$EndComp
+Connection ~ 3300 3750
+$Comp
+L Connector:Conn_01x01_Female J1
+U 1 1 5EADDC88
+P 3100 1650
+F 0 "J1" H 2992 1425 50  0000 C CNN
+F 1 "PHASE" H 2992 1516 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 3100 1650 50  0001 C CNN
+F 3 "~" H 3100 1650 50  0001 C CNN
+	1    3100 1650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3300 1650 3300 1950
+$Comp
+L Connector:Conn_01x01_Female J2
+U 1 1 5EA412D9
+P 3100 1950
+F 0 "J2" H 3050 1850 50  0000 C CNN
+F 1 "M2" H 3150 1950 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 3100 1950 50  0001 C CNN
+F 3 "~" H 3100 1950 50  0001 C CNN
+	1    3100 1950
+	-1   0    0    1   
+$EndComp
+Connection ~ 3300 1950
+$Comp
+L Connector:Conn_01x01_Female J6
+U 1 1 5EA41516
+P 3100 2050
+F 0 "J6" H 3050 2150 50  0000 C CNN
+F 1 "M1" H 3150 2050 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 3100 2050 50  0001 C CNN
+F 3 "~" H 3100 2050 50  0001 C CNN
+	1    3100 2050
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
