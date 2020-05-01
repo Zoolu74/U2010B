@@ -122,7 +122,7 @@ U 1 1 5EA41918
 P 7800 3350
 F 0 "R8" H 7928 3396 50  0000 L CNN
 F 1 "470k" H 7900 3300 50  0000 L CNN
-F 2 "Potentiometer_THT:Potentiometer_Vishay_T7-YA_Single_Vertical" V 7730 3350 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical_HandSoldering" V 7730 3350 50  0001 C CNN
 F 3 "~" H 7800 3350 50  0001 C CNN
 	1    7800 3350
 	1    0    0    -1  
@@ -205,7 +205,7 @@ U 1 1 5EA62EB1
 P 4050 5150
 F 0 "R10" V 4150 5050 50  0000 C CNN
 F 1 "100k" V 4250 5100 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Vishay_T7-YA_Single_Vertical" V 3980 5150 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical_HandSoldering" V 3980 5150 50  0001 C CNN
 F 3 "~" H 4050 5150 50  0001 C CNN
 	1    4050 5150
 	0    1    1    0   
@@ -294,7 +294,7 @@ U 1 1 5EAA966E
 P 4750 4450
 F 0 "R11" V 4650 4300 50  0000 C CNN
 F 1 "1M" V 4650 4550 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Vishay_T7-YA_Single_Vertical" V 4680 4450 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical_HandSoldering" V 4680 4450 50  0001 C CNN
 F 3 "~" H 4750 4450 50  0001 C CNN
 	1    4750 4450
 	-1   0    0    1   
